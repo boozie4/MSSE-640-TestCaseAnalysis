@@ -6,7 +6,9 @@ Equivalence Class Partitioning is a method of software testing that divides the 
 
 Below is a table which represents possible equivalence classes for the Triagle Checker program that was written for class:
 
-| EC1 |             The input variable is a positive integer, valid              |
-| EC2 |          The input variable is not a positive integer, invalid           |
-| EC3 |      The value of side a plus side b is greater than side c, valid       |
+| Table | Classes |
+| ---------- | ---------- |
+| EC1 | The input variable is a positive integer, valid |
+| EC2 | The input variable is not a positive integer, invalid |
+| EC3 | The value of side a plus side b is greater than side c, valid |
 | EC4 | The value of side a plus side b is less than or equal to side c, invalid |
