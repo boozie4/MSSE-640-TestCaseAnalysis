@@ -26,3 +26,9 @@ There are some limitations that come with using equivalence class partitioning. 
 Secondly, partitioning is only as good as the definition for the equivalence classes. If the definitions of the partitioning are incorrect, this could lead to gaps in testing and in turn missed defects.
 
 Thirdly, equivalence class partitioning is a technique know as black box testing. This method of testing does look beyond the scope of the inputs. This could lead to defects that arise due to coding logic being missed.
+
+# SECTION 5: Reference or Discussion About How You Used an AI Tool
+
+I did not use any AI tools to help with this write-up.
+
+As as reference go for this assignment, I used our textbook Practical Software Testing by Burnstein and then I used the website https://testgrid.io/blog/equivalence-partitioning-testing/
