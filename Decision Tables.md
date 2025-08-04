@@ -37,13 +37,19 @@ The decision table would be shown as follows:
 | E2 | 1 | 0 | 0 |
 | E3 | 0 | 1 | 0 |
 
+This table would then be used by the tester to develop test cases.
+
 # SECTION 3: When Should This Type of Testing Be Used
 
-
+Decision tables are beneficial when used in instances where there is a large amount of different input scenarios that need to be tested. Using decion tables helps to reduce complexity and redundancy of the testing process. Although this technique can be time consuming, one advantage of using this technique is that it allows for in depth and thorough inspection of the specifications while develping the rules and contitions for the cause-and-effect graph. Therefore, any inaccuracies or inconsistencies are likely to be detected early on in the process. 
 
 # SECTION 4: Describe the Limitations
 
-
+One major limitation to this technique is trying to develop the cause-and-effect graph and the decision table when there is a large number of causes and effects to consider. It can be difficult to choose causes and effect that will produce significant results in situations like this. However, as a possible solution to this, the tester can break down some of the complex specifications into smaller and simpler components. These simpler components can them be used to create the cause-and-effect graph and the decision table.
 
 # SECTION 5: Reference or Discussion About How You Used an AI Tool
 
+I did not use AI for this assignment. However, I did use the following resources:
+
+* Practical Software Testing by Ilene Burnstein
+* https://testsigma.com/blog/decision-table-testing/
