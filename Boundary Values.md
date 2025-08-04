@@ -16,7 +16,7 @@
 Let's use a program that requires its users to be between the ages of 18 and 65. The table below reflects valid and invalid data for testing. 
 
 Boundary Value Analysis (Ages 18 to 65)
-----------
+| ---------- |
 | Invalid (Min - 1) | Valid (min, min + 1, nominal, max - 1, max) | Invalid (max + 1) |
 | ---------- | ---------- | ---------- |
 | 17 | 18, 19, 41, 64, 65 | 66 |
