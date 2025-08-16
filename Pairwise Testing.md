@@ -34,11 +34,15 @@ As an example, suppose there is a system or application which has 6 different in
 
 # SECTION 3: When Should This Type of Testing Be Used
 
-
+Pairwise testing is best used when there are numerous input parameters that need to be tested, and exhaustive testing is not practicle or possible. Using Pairwise testing, the tester can combine multiple parameters for testing, which reduces the number of test cases and increases the efficiency of testing. 
 
 # SECTION 4: Describe the Limitations
 
-
+* Assumes that the input parameters are all independent. However, it is possible for input parameters to affect another, changing the behavior of the system or application being tested.
+* There may be contraints in the input parameters which could limit the combinations of input parameters which produce valid test results.
 
 # SECTION 5: Reference or Discussion About How You Used an AI Tool
 
+No AI tools were used to help with this research. However, the following websites were used:
+* https://ashok-s-nair.medium.com/qa-pairwise-testing-guidelines-and-caveats-1b7b60d2416
+* https://www.testrail.com/blog/pairwise-testing/
