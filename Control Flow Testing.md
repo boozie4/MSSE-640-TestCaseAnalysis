@@ -19,19 +19,19 @@ graph TD;
     C-->D;
 ```
 
-| Inputs | State 1 | State 2 | State 3 | 
-| ---------- | ---------- | ---------- | ---------- |
-| 1 | S1 (Act 1) | S2 (Act 2) | S3 (Act 3) |
-| 2 | S3 (Act 4) | S2 (Act 5) | S1 (Act 6) |
-| 3 | S3 (Act 7) | S3 (Act 8) | S3 (Act 9) |
-
 # SECTION 3: When Should This Type of Testing Be Used
 
-
+This method of testing should be used when the logic of the code needs to be tested to ensure all user requirements are fulfilled. Testers can utilize this method of testing to ensure all paths of the system or application are tested and behave as expected. 
 
 # SECTION 4: Describe the Limitations
 
-
+* It is difficult to ensure all paths are tested if the code and the test model are written by the same person. 
+* Larger projects with more complex flow can become more difficult.
 
 # SECTION 5: Reference or Discussion About How You Used an AI Tool
 
+No AI tools were used in this research. However, the following resources were used:
+
+* Practical Software Testing by Ilene Burnstein
+* https://www.geeksforgeeks.org/software-testing/control-flow-software-testing/
+* https://www.geeksforgeeks.org/software-engineering/software-engineering-control-flow-graph-cfg/
