@@ -11,12 +11,13 @@ Some objectives of Control Flow Testing include:
 
 # SECTION 2: Table/Diagram
 
-graph TD
-    A[Start] --> B{Is condition met?};
-    B -- Yes --> C[Do something];
-    B -- No --> D[Do something else];
-    C --> E[End];
-    D --> E;
+```mermaid
+graph TD;
+    A-->B;
+    A-->C;
+    B-->D;
+    C-->D;
+```
 
 | Inputs | State 1 | State 2 | State 3 | 
 | ---------- | ---------- | ---------- | ---------- |
